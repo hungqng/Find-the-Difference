@@ -12,3 +12,9 @@ class Solution:
         for cs in s: c ^= ord(cs) #ord is ASCII value
         for ct in t: c ^= ord(ct)
         return chr(c) #chr = convert ASCII into character
+
+        # Solution 2 XOR
+        # ans = 0
+        # for c in s + t:
+        #     ans ^= ord(c)
+        # return chr(ans)
